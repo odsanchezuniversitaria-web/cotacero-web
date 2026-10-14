@@ -1,0 +1,5 @@
+site/Build/Web.data
+site/Build/Web.framework.js
+site/Build/Web.wasm
+.staticrypt.json
+encrypted/
