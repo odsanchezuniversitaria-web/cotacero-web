@@ -13,6 +13,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -28,3 +29,6 @@ jobs:
           path: site
       - uses: actions/deploy-pages@v4
         id: deployment
+        with:
+          timeout: 1800000
+          reporting_interval: 10000
