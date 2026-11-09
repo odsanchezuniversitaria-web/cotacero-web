@@ -6,9 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>CotaCero · Prueba web 0.1.24</title>
     <meta name="description" content="">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico?build=81d7529b9212014b">
-    <link rel="stylesheet" href="TemplateData/style.css?build=81d7529b9212014b">
-    <meta name="cotacero-build" content="81d7529b9212014b">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico?build=060b0fee0a06f65a">
+    <link rel="stylesheet" href="TemplateData/style.css?build=060b0fee0a06f65a">
+    <meta name="cotacero-build" content="060b0fee0a06f65a">
   </head>
   <body>
     <div id="unity-container">
@@ -37,12 +37,12 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js?build=81d7529b9212014b";
+      var loaderUrl = buildUrl + "/Web.loader.js?build=060b0fee0a06f65a";
       var config = {
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
-        dataUrl: buildUrl + "/Web.data?build=81d7529b9212014b",
-        frameworkUrl: buildUrl + "/Web.framework.js?build=81d7529b9212014b",
-        codeUrl: buildUrl + "/Web.wasm?build=81d7529b9212014b",
+        dataUrl: buildUrl + "/Web.data?build=060b0fee0a06f65a",
+        frameworkUrl: buildUrl + "/Web.framework.js?build=060b0fee0a06f65a",
+        codeUrl: buildUrl + "/Web.wasm?build=060b0fee0a06f65a",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Corporacion Universitaria de Bogota",
         productName: "Cota Cero",
@@ -51,6 +51,7 @@
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
+      canvas.addEventListener("contextmenu", function (event) { event.preventDefault(); });
       var canvasContainer = document.querySelector("#unity-canvas-container");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");

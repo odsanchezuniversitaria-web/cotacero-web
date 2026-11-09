@@ -2,8 +2,13 @@
 
 Acceso directo, sin contraseña: https://odsanchezuniversitaria-web.github.io/cotacero-web/
 
-Unity 0.1.24 · revisión del 9 de noviembre de 2026 · build `81d7529b9212014b`.
+Unity 0.1.24 · revisión del 9 de noviembre de 2026 · build `060b0fee0a06f65a`.
 
+El nivel 0 presenta los mismos objetos que aparecen en el terreno: trípode amarillo articulado, nivel óptico, referencia BM-1 y burbuja. La escuela se muestra desde el edificio de la escena. Cada pata se abre de forma independiente y marca OK al completar la apertura. La burbuja física y su vista ampliada siguen los mismos ajustes A/B.
+
+Nivel 0 en PC: arrastra una pata, mantén el botón derecho para girar la vista y usa la rueda para acercar o alejar. En celular: arrastra la pata, desliza el fondo para mirar y pellizca con dos dedos para acercar. El trípode ocupa la zona libre sobre el panel en vertical; la pantalla de nivelación usa el ancho del celular. La barra sigue disponible como ayuda.
+
+Esta revisión completó el nivel 0 hasta el logro de 5/5 en Edge 1366×768 y Android táctil emulado 390×844. Se verificaron los tres arrastres con ratón, órbita, rueda, arrastre táctil, pellizco, apertura auxiliar, rechazo de una nivelación incorrecta y confirmación de la burbuja centrada. Las pruebas del navegador no registraron errores de JavaScript. La narración de apertura conserva la grabación anterior, que describe la barra de ayuda.
 Interfaz tecnológica con fondos azul oscuro, marcos cian, esquinas diagonales y respuesta visual al pulsar. El estilo cubre los menús, guías, misiones y paneles didácticos del laboratorio. Los rellenos opacos evitan letras visibles de otras capas. La Planilla del SOUTH N6 tiene cinco páginas, letra ampliada en celular y lectura desplazable; mientras se consulta, las pistas por inactividad esperan. Las teclas y LCD del SOUTH N6 y las pantallas físicas de las máquinas conservan su aspecto de instrumento.
 
 Nexus puede enlazar esta URL. El enlace es público; esta distribución no implementa autenticación de Nexus.
