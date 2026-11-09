@@ -6,9 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>CotaCero · Prueba web 0.1.24</title>
     <meta name="description" content="">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico?build=fcd770146cce8d37">
-    <link rel="stylesheet" href="TemplateData/style.css?build=fcd770146cce8d37">
-    <meta name="cotacero-build" content="fcd770146cce8d37">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico?build=81d7529b9212014b">
+    <link rel="stylesheet" href="TemplateData/style.css?build=81d7529b9212014b">
+    <meta name="cotacero-build" content="81d7529b9212014b">
   </head>
   <body>
     <div id="unity-container">
@@ -16,7 +16,10 @@
         <canvas id="unity-canvas" style="width: 100%; height: 100%;" tabindex="0" aria-label="Simulador CotaCero"></canvas>
       </div>
       <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
+        <div id="unity-logo" aria-hidden="true">
+          <strong class="unity-brand-name">COTA CERO</strong>
+          <span class="unity-brand-caption">LABORATORIO INTERACTIVO</span>
+        </div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
@@ -34,12 +37,12 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js?build=fcd770146cce8d37";
+      var loaderUrl = buildUrl + "/Web.loader.js?build=81d7529b9212014b";
       var config = {
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
-        dataUrl: buildUrl + "/Web.data?build=fcd770146cce8d37",
-        frameworkUrl: buildUrl + "/Web.framework.js?build=fcd770146cce8d37",
-        codeUrl: buildUrl + "/Web.wasm?build=fcd770146cce8d37",
+        dataUrl: buildUrl + "/Web.data?build=81d7529b9212014b",
+        frameworkUrl: buildUrl + "/Web.framework.js?build=81d7529b9212014b",
+        codeUrl: buildUrl + "/Web.wasm?build=81d7529b9212014b",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Corporacion Universitaria de Bogota",
         productName: "Cota Cero",
