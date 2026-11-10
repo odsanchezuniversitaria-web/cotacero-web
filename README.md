@@ -2,7 +2,11 @@
 
 Acceso directo, sin contraseña: https://odsanchezuniversitaria-web.github.io/cotacero-web/
 
-Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `5229ec009f770c77`.
+Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `d243332fe54702c6`.
+
+La nivelación del SOUTH N6 dispone de un mini panel «Burbuja · vista ampliada» en PC y celular. Sigue en tiempo real los tres tornillos y usa la misma tolerancia que el nivel circular del instrumento: ámbar fuera del centro y verde «Centrada · OK» al nivelar. En vertical tiene una franja propia sobre el equipo; en horizontal ocupa la columna lateral. Se oculta en otras pestañas y al mirar por el ocular. VR conserva su presentación física.
+
+Esta incorporación se comprobó en Unity GameView a 1366×768, 390×844, 320×568 y 844×390. Se verificaron el arrastre de la perilla con punteros de ratón y toque, la coincidencia entre desviación gráfica e inclinación física, la confirmación verde, el cambio de resolución y la ausencia de superficies que bloqueen los gestos. También se comprobó en Edge con ratón a 1366×768 y toque Android emulado a 390×844: la perilla A hace avanzar la guía, el mini panel reaparece en montaje y se adapta a 320×568 y 844×390 sin desbordamiento horizontal. Ambos recorridos registraron cero errores de JavaScript. No se probó en un teléfono físico.
 
 El ocular de la SOUTH N6 usa pantalla dividida en PC y celular: el objetivo y la estación se ven al mismo tiempo. En PC/horizontal aparecen lado a lado; en celular vertical, el ocular está arriba y el instrumento abajo. Se arrastran las perillas reales para ajustar el foco y el retículo. «Ver foco» y «Ver retículo» acercan sus piezas; el fondo permite girar la vista. Los frenos y ajustes finos conservan su funcionamiento. La confirmación permite seguir observando hasta pulsar «Salir del ocular».
 

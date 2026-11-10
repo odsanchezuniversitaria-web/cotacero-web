@@ -7,7 +7,7 @@
       "Web.data.br.part002",
       "Web.data.br.part003"
     ],
-    "sha256": "b4354e878948d9830f7f52a983a56da0eb0b08566bfde8fe70940bd16cc9d75d"
+    "sha256": "ae6d4743ab455328a4b0ff7ad8d11c98d19670dd8d8ca7f534209b84d67cad6a"
   },
   {
     "target": "Build/Web.framework.js",
@@ -21,6 +21,6 @@
     "parts": [
       "Web.wasm.br.part000"
     ],
-    "sha256": "dafd395881d467ff29972c18456ef5aff50a22f3090b636f33fb706b4919b5e6"
+    "sha256": "dcfd085e50b02a37041e3b1054381768f4ffcfa101b834526c1c7546e93a7b6a"
   }
 ]
