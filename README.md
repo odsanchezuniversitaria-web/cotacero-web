@@ -2,7 +2,11 @@
 
 Acceso directo, sin contraseña: https://odsanchezuniversitaria-web.github.io/cotacero-web/
 
-Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `d243332fe54702c6`.
+Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `61a20827a0695481`.
+
+Validación de centrado del 10 de noviembre: el recorrido de montaje se completó en Edge 1366×768 con ratón y Android táctil emulado 390×844. Se giraron las perillas C y B, apareció la plomada automáticamente, se arrastró su punto rojo hasta la cruz y se continuó a la Planilla sólo después de soltar. Se comprobaron los cuatro ajustes finos y las disposiciones 320×568 y 844×390, sin desbordamiento horizontal ni errores de JavaScript.
+
+La preparación del SOUTH N6 ahora muestra dos pasos distintos en Equipo: 1/2 nivelar la burbuja y 2/2 centrar la plomada. Al nivelar, el mini panel cambia a una cruz con punto rojo y botones N/S/E/O. Se puede arrastrar el punto o tocar/mantener las direcciones para desplazar la base; cada toque ajusta 0.5 mm. El montaje espera a soltar y mantener ambos indicadores correctos antes de confirmar. Muéstrame abre esta vista y la instrucción activa sustituye la lista general. La cámara encuadra el tornillo recomendado al soltar; el tornillo C se ve desde debajo del teclado. Estos cambios se limitan a la interacción de pantalla.
 
 La nivelación del SOUTH N6 dispone de un mini panel «Burbuja · vista ampliada» en PC y celular. Sigue en tiempo real los tres tornillos y usa la misma tolerancia que el nivel circular del instrumento: ámbar fuera del centro y verde «Centrada · OK» al nivelar. En vertical tiene una franja propia sobre el equipo; en horizontal ocupa la columna lateral. Se oculta en otras pestañas y al mirar por el ocular. VR conserva su presentación física.
 
