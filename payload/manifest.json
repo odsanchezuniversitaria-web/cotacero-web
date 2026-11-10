@@ -7,20 +7,20 @@
       "Web.data.br.part002",
       "Web.data.br.part003"
     ],
-    "sha256": "378db9db98216e49760e31a312a03530e6ebaa3ec78d66cdb0e47beb4fe31fd4"
+    "sha256": "b4354e878948d9830f7f52a983a56da0eb0b08566bfde8fe70940bd16cc9d75d"
   },
   {
     "target": "Build/Web.framework.js",
     "parts": [
       "Web.framework.js.br.part000"
     ],
-    "sha256": "1588984b94535526bca32cdf812318e47fd53d322789778314635247e6d66661"
+    "sha256": "910ce0abd0319fd2d86a4133a2ce00c20bfc9f0e984b19714c04bded3163a6df"
   },
   {
     "target": "Build/Web.wasm",
     "parts": [
       "Web.wasm.br.part000"
     ],
-    "sha256": "b178eb3ada516f820be61ad27f6ab237bb1526849983abed74b8a065ba011153"
+    "sha256": "dafd395881d467ff29972c18456ef5aff50a22f3090b636f33fb706b4919b5e6"
   }
 ]
