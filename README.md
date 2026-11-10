@@ -2,7 +2,11 @@
 
 Acceso directo, sin contraseña: https://odsanchezuniversitaria-web.github.io/cotacero-web/
 
-Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `61a20827a0695481`.
+Unity 0.1.24 · revisión del 10 de noviembre de 2026 · build `fca99a89cba76e69`.
+
+Validación de la vista doble: se completó el montaje desde Reto sin ayuda con ratón en Edge 1366×768 y con toque Android emulado 390×844. La burbuja abre la vista, el centrado y la nivelación se conservan al cambiar de indicador, los presets no ajustan valores y el montaje espera a Confirmar. También se revisaron 320×568 y 844×390, sin desbordamiento horizontal. Ambos recorridos registraron cero errores de JavaScript.
+
+La burbuja del SOUTH N6 abre una vista de montaje dividida, también en el reto sin ayuda. En PC se ven el indicador ampliado y el equipo lado a lado; en celular vertical, arriba y abajo. Burbuja y Plomada son seleccionables por separado; los accesos A/B/C y Base sólo cambian el encuadre y las perillas se arrastran sobre la máquina. La plomada conserva el arrastre y N/S/E/O. La configuración permanece abierta hasta Confirmar, que exige centrado y nivel correctos. También hay un acceso Ampliar y apertura desde la burbuja de Ajustes o la burbuja física visible.
 
 Validación de centrado del 10 de noviembre: el recorrido de montaje se completó en Edge 1366×768 con ratón y Android táctil emulado 390×844. Se giraron las perillas C y B, apareció la plomada automáticamente, se arrastró su punto rojo hasta la cruz y se continuó a la Planilla sólo después de soltar. Se comprobaron los cuatro ajustes finos y las disposiciones 320×568 y 844×390, sin desbordamiento horizontal ni errores de JavaScript.
 
